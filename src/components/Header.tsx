@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <div className="w-28 h-28 mx-auto mb-4 relative">
         <div className="w-full h-full rounded-full overflow-hidden border-4 border-love-400 shadow-lg">
           <img
-            src="/fotos/1.jpeg"
+            src="./fotos/1.jpeg"
             alt="Foto do casal"
             className="w-full h-full object-cover"
           />

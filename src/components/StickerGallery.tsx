@@ -5,49 +5,49 @@ import { ImageIcon } from 'lucide-react';
 const localStickers = [
   {
     id: 1,
-    src: "/figurinhas/1.webp",
+    src: "./figurinhas/1.webp",
     alt: "Figurinha 1",
     caption: "Quando brigamos kkk"
   },
   {
     id: 2,
-    src: "/figurinhas/2.webp",
+    src: "./figurinhas/2.webp",
     alt: "Figurinha 2",
     caption: "Nosso jeitinho de pedir carinho"
   },
   {
     id: 3,
-    src: "/figurinhas/3.webp",
+    src: "./figurinhas/3.webp",
     alt: "Figurinha 3",
     caption: "Feliz um tantão assim"
   },
   {
     id: 4,
-    src: "/figurinhas/4.webp",
+    src: "./figurinhas/4.webp",
     alt: "Figurinha 4",
     caption: "Tem certeza?"
   },
   {
     id: 5,
-    src: "/figurinhas/5.webp",
+    src: "./figurinhas/5.webp",
     alt: "Figurinha 5",
     caption: "Fefinhoooo"
   },
   {
     id: 6,
-    src: "/figurinhas/6.webp",
+    src: "./figurinhas/6.webp",
     alt: "Figurinha 6",
     caption: "Nós dois"
   },
   {
     id: 7,
-    src: "/figurinhas/7.webp",
+    src: "./figurinhas/7.webp",
     alt: "Figurinha 7",
     caption: "Nós denovo"
   },
   {
     id: 8,
-    src: "/figurinhas/8.webp",
+    src: "./figurinhas/8.webp",
     alt: "Figurinha 8",
     caption: "Fefo tristeee"
   },

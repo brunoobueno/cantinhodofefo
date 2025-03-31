@@ -6,37 +6,37 @@ import { Image } from 'lucide-react';
 const localPhotos = [
   {
     id: 1,
-    src: "/fotos/1.jpeg",
+    src: "./fotos/1.jpeg",
     alt: "Foto 1",
     caption: "Nossa primeira foto juntos"
   },
   {
     id: 2,
-    src: "/fotos/2.JPG",
+    src: "./fotos/2.JPG",
     alt: "Foto 2",
     caption: "Você odiando foto kk"
   },
   {
     id: 3,
-    src: "/fotos/3.jpg",
+    src: "./fotos/3.jpg",
     alt: "Foto 3",
     caption: "Dia de comer um BK"
   },
   {
     id: 4,
-    src: "/fotos/4.jpg",
+    src: "./fotos/4.jpg",
     alt: "Foto 4",
     caption: "Na melhor companhia"
   },
   {
     id: 5,
-    src: "/fotos/5.jpeg",
+    src: "./fotos/5.jpeg",
     alt: "Foto 5",
     caption: "Nosso dia perfeito"
   },
   {
     id: 6,
-    src: "/fotos/6.jpeg",
+    src: "./fotos/6.jpeg",
     alt: "Foto 6",
     caption: "Dia de SkinCare"
   }
