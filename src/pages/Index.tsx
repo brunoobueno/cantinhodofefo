@@ -1,12 +1,32 @@
-// Update this page (the content is just a fallback if you fail to update the page)
+
+import React from 'react';
+import Header from '@/components/Header';
+import TimeCounter from '@/components/TimeCounter';
+import MessageCarousel from '@/components/MessageCarousel';
+import PhotoGallery from '@/components/PhotoGallery';
+import StickerGallery from '@/components/StickerGallery';
+import ConnectionMeter from '@/components/ConnectionMeter';
+import Timeline from '@/components/Timeline';
+import FuturePlans from '@/components/FuturePlans';
+import RandomAdvice from '@/components/RandomAdvice';
 
 const Index = () => {
   return (
-    <div className="min-h-screen flex items-center justify-center bg-gray-100">
-      <div className="text-center">
-        <h1 className="text-4xl font-bold mb-4">Welcome to Your Blank App</h1>
-        <p className="text-xl text-gray-600">Start building your amazing project here!</p>
-      </div>
+    <div className="min-h-screen">
+      <Header />
+      <main className="pb-16">
+        <TimeCounter />
+        <MessageCarousel />
+        <PhotoGallery />
+        <StickerGallery />
+        <ConnectionMeter />
+        <Timeline />
+        <FuturePlans />
+        <RandomAdvice />
+      </main>
+      <footer className="text-center text-xs text-love-400 pb-4">
+        <p>Feito com ♥ para o nosso amor</p>
+      </footer>
     </div>
   );
 };
