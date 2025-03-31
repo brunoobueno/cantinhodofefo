@@ -27,7 +27,7 @@ const MessageCarousel: React.FC = () => {
         // Auto-advance to next message after pause
         const pauseTimeout = setTimeout(() => {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % messages.length);
-        }, 5000);
+        }, 10000);
         
         return () => clearTimeout(pauseTimeout);
       }
