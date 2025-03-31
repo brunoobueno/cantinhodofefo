@@ -157,14 +157,14 @@ export const futurePlans = [
     id: 2,
     title: "Jantar especial",
     description: "Experimentar aquele restaurante que sempre quisemos.",
-    status: "Em andamento",
+    status: "Planejado",
     icon: MapPin
   },
   {
     id: 3,
     title: "Maratona de filmes",
     description: "Assistir nossa lista de filmes favoritos.",
-    status: "Realizado",
+    status: "Planejado",
     icon: BookOpen
   },
   {
