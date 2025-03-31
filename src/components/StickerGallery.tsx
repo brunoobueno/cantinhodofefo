@@ -1,7 +1,57 @@
-
 import React, { useState } from 'react';
-import { stickers } from '@/lib/data';
 import { ImageIcon } from 'lucide-react';
+
+// Array de figurinhas locais
+const localStickers = [
+  {
+    id: 1,
+    src: "/figurinhas/1.webp",
+    alt: "Figurinha 1",
+    caption: "Quando brigamos kkk"
+  },
+  {
+    id: 2,
+    src: "/figurinhas/2.webp",
+    alt: "Figurinha 2",
+    caption: "Nosso jeitinho de pedir carinho"
+  },
+  {
+    id: 3,
+    src: "/figurinhas/3.webp",
+    alt: "Figurinha 3",
+    caption: "Feliz um tantão assim"
+  },
+  {
+    id: 4,
+    src: "/figurinhas/4.webp",
+    alt: "Figurinha 4",
+    caption: "Tem certeza?"
+  },
+  {
+    id: 5,
+    src: "/figurinhas/5.webp",
+    alt: "Figurinha 5",
+    caption: "Fefinhoooo"
+  },
+  {
+    id: 6,
+    src: "/figurinhas/6.webp",
+    alt: "Figurinha 6",
+    caption: "Nós dois"
+  },
+  {
+    id: 7,
+    src: "/figurinhas/7.webp",
+    alt: "Figurinha 7",
+    caption: "Nós denovo"
+  },
+  {
+    id: 8,
+    src: "/figurinhas/8.webp",
+    alt: "Figurinha 8",
+    caption: "Fefo tristeee"
+  },
+];
 
 const StickerGallery: React.FC = () => {
   const [activeSticker, setActiveSticker] = useState<number | null>(null);
@@ -22,8 +72,8 @@ const StickerGallery: React.FC = () => {
       </h2>
       
       <div className="love-card">
-        <div className="grid grid-cols-3 gap-4">
-          {stickers.map((sticker) => (
+        <div className="grid grid-cols-4 gap-4">
+          {localStickers.map((sticker) => (
             <div key={sticker.id} className="relative">
               <div 
                 className={`cursor-pointer transition-all duration-300 ${

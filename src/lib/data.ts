@@ -1,4 +1,3 @@
-
 import { 
   Calendar, 
   Heart, 
@@ -11,15 +10,29 @@ import {
 } from "lucide-react";
 
 // Sample relationship data - replace with your actual data
-export const relationshipStartDate = new Date('2023-08-15T00:00:00');
+export const relationshipStartDate = new Date('2021-07-29T00:00:00');
 
 export const messages = [
   "Você é a melhor parte dos meus dias.",
-  "Meu coração sorri quando penso em você.",
-  "Nosso amor é minha história favorita.",
-  "Cada momento contigo vale por mil sem você.",
-  "Você me faz querer ser a melhor versão de mim.",
-  "Encontrei meu lugar no mundo, e é ao seu lado.",
+"Meu coração sorri quando penso em você.",
+"Nosso amor é minha história favorita.",
+"Cada momento contigo vale por mil sem você.",
+"Você me faz querer ser a melhor versão de mim.",
+"Encontrei meu lugar no mundo, e é ao seu lado.",
+"Com você, até o silêncio tem significado.",
+"Te amar é como respirar: natural, essencial, constante.",
+"Quando estou com você, o tempo desacelera.",
+"Seu abraço é o meu lar favorito.",
+"Você é o detalhe que faltava na minha vida.",
+"Eu te escolheria mil vezes, em mil vidas.",
+"Com você, até a rotina vira poesia.",
+"Você é meu acaso mais bonito.",
+"Seu sorriso ilumina tudo dentro de mim.",
+"Nada é tão meu quanto você.",
+"Você é o 'pra sempre' que eu nunca imaginei querer tanto.",
+"Tudo fica mais leve quando você está por perto.",
+"Você é minha calmaria depois do caos.",
+"Mesmo em dias nublados, você é meu sol.",
 ];
 
 export const photos = [
@@ -97,46 +110,46 @@ export const stickers = [
 export const timelineEvents = [
   {
     id: 1,
-    date: "15/08/2023",
-    title: "Nos reconectamos",
-    description: "Depois de tanto tempo, o destino nos uniu novamente.",
+    date: "29/07/2021",
+    title: "Início do Namoro",
+    description: "O dia em que oficialmente decidimos construir nossa história juntos.",
     icon: Heart
   },
   {
     id: 2,
-    date: "22/08/2023",
-    title: "Primeiro encontro",
-    description: "Aquele café que durou horas e pareceu minutos.",
-    icon: Calendar
+    date: "31/07/2021",
+    title: "Meu Primeiro Aniversário",
+    description: "Primeiro aniversário que passei ao seu lado, celebrando momentos especiais.",
+    icon: Gift
   },
   {
     id: 3,
-    date: "10/09/2023",
-    title: "Primeiro beijo",
-    description: "Sob as estrelas, selamos nosso começo.",
-    icon: Star
+    date: "21/08/2021",
+    title: "Primeiro Café Juntos",
+    description: "Aquele café que despertou ainda mais os nossos sentimentos.",
+    icon: Calendar
   },
   {
     id: 4,
-    date: "05/11/2023",
-    title: "Viagem a dois",
-    description: "Nossa primeira aventura juntos.",
-    icon: Plane
+    date: "09/11/2021",
+    title: "Trabalho em Equipe",
+    description: "Começamos a trabalhar juntos, unindo profissão e amor.",
+    icon: BookOpen
   },
   {
     id: 5,
-    date: "25/12/2023",
-    title: "Natal juntos",
-    description: "O melhor presente foi ter você ao meu lado.",
-    icon: Gift
-  },
+    date: "22/03/2025",
+    title: "Nossa Reconexão",
+    description: "Depois de um tempo, o destino nos uniu novamente, mais fortes do que antes.",
+    icon: Star
+  }
 ];
 
 export const futurePlans = [
   {
     id: 1,
-    title: "Viagem para a praia",
-    description: "Passar um fim de semana na praia dos sonhos.",
+    title: "Viagem Parque Aquático",
+    description: "Passar um fim de semana divertido no parque aquático.",
     status: "Planejado",
     icon: Plane
   },

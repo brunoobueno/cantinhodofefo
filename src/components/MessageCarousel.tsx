@@ -1,4 +1,3 @@
-
 import React, { useState, useEffect } from 'react';
 import { messages } from '@/lib/data';
 import { Heart } from 'lucide-react';
@@ -28,7 +27,7 @@ const MessageCarousel: React.FC = () => {
         // Auto-advance to next message after pause
         const pauseTimeout = setTimeout(() => {
           setCurrentIndex((prevIndex) => (prevIndex + 1) % messages.length);
-        }, 3000);
+        }, 5000);
         
         return () => clearTimeout(pauseTimeout);
       }
@@ -66,16 +65,17 @@ const MessageCarousel: React.FC = () => {
         <div className="flex justify-between w-full px-4 mt-4">
           <button 
             onClick={handlePrev} 
-            className="text-love-600 hover:text-love-800 transition-colors"
+            className="text-love-600 hover:text-love-800 transition-colors flex flex-col items-center"
             disabled={isTyping}
           >
-            &#8592; Anterior
+            <span>&#8592;</span>
+            <span>Anterior</span>
           </button>
-          <div className="flex space-x-1">
+          <div className="flex flex-wrap justify-center max-w-[60%] gap-1">
             {messages.map((_, index) => (
               <span 
                 key={index} 
-                className={`block w-2 h-2 rounded-full ${
+                className={`block w-1.5 h-1.5 rounded-full ${
                   index === currentIndex ? 'bg-love-500' : 'bg-love-200'
                 }`}
               />
@@ -83,10 +83,11 @@ const MessageCarousel: React.FC = () => {
           </div>
           <button 
             onClick={handleNext} 
-            className="text-love-600 hover:text-love-800 transition-colors"
+            className="text-love-600 hover:text-love-800 transition-colors flex flex-col items-center"
             disabled={isTyping}
           >
-            Próxima &#8594;
+            <span>&#8594;</span>
+            <span>Próxima</span>
           </button>
         </div>
       </div>

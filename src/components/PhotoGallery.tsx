@@ -1,13 +1,51 @@
-
 import React, { useState } from 'react';
-import { photos } from '@/lib/data';
 import LightboxModal from './LightboxModal';
 import { Image } from 'lucide-react';
 
+// Array de fotos locais
+const localPhotos = [
+  {
+    id: 1,
+    src: "/fotos/1.jpeg",
+    alt: "Foto 1",
+    caption: "Nossa primeira foto juntos"
+  },
+  {
+    id: 2,
+    src: "/fotos/2.JPG",
+    alt: "Foto 2",
+    caption: "Você odiando foto kk"
+  },
+  {
+    id: 3,
+    src: "/fotos/3.jpg",
+    alt: "Foto 3",
+    caption: "Dia de comer um BK"
+  },
+  {
+    id: 4,
+    src: "/fotos/4.jpg",
+    alt: "Foto 4",
+    caption: "Na melhor companhia"
+  },
+  {
+    id: 5,
+    src: "/fotos/5.jpeg",
+    alt: "Foto 5",
+    caption: "Nosso dia perfeito"
+  },
+  {
+    id: 6,
+    src: "/fotos/6.jpeg",
+    alt: "Foto 6",
+    caption: "Dia de SkinCare"
+  }
+];
+
 const PhotoGallery: React.FC = () => {
-  const [selectedPhoto, setSelectedPhoto] = useState<typeof photos[0] | null>(null);
+  const [selectedPhoto, setSelectedPhoto] = useState<typeof localPhotos[0] | null>(null);
   
-  const openLightbox = (photo: typeof photos[0]) => {
+  const openLightbox = (photo: typeof localPhotos[0]) => {
     setSelectedPhoto(photo);
   };
   
@@ -23,7 +61,7 @@ const PhotoGallery: React.FC = () => {
       </h2>
       
       <div className="grid grid-cols-2 gap-3 sm:grid-cols-3">
-        {photos.map((photo) => (
+        {localPhotos.map((photo) => (
           <div 
             key={photo.id} 
             className="aspect-square overflow-hidden rounded-lg shadow-md cursor-pointer hover:-translate-y-1 hover:shadow-lg transition-all"

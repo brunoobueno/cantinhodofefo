@@ -8,7 +8,7 @@ const Header: React.FC = () => {
       <div className="w-28 h-28 mx-auto mb-4 relative">
         <div className="w-full h-full rounded-full overflow-hidden border-4 border-love-400 shadow-lg">
           <img
-            src="https://images.unsplash.com/photo-1470813740244-df37b8c1edcb"
+            src="/fotos/1.jpeg"
             alt="Foto do casal"
             className="w-full h-full object-cover"
           />
@@ -18,7 +18,7 @@ const Header: React.FC = () => {
         </div>
       </div>
       
-      <h1 className="text-3xl font-cursive text-love-600 mb-2 animate-fade-in">Nosso Amor</h1>
+      <h1 className="text-3xl font-cursive text-love-600 mb-2 animate-fade-in">Cantinho do Fefo</h1>
       <p className="text-lg font-serif text-love-700 mb-4 animate-fade-in">
         Um lugar só nosso para celebrar nossa história
       </p>

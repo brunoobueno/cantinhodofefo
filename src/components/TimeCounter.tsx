@@ -36,7 +36,7 @@ const TimeCounter: React.FC = () => {
 
   return (
     <div className="love-card animate-fade-in mb-8">
-      <h2 className="section-title">Estamos juntos há</h2>
+      <h2 className="section-title">Nossa História Juntos Começou Em</h2>
       <div className="flex justify-center items-center space-x-4 text-center">
         <TimeUnit value={timeElapsed.days} label="Dias" />
         <TimeUnit value={timeElapsed.hours} label="Horas" />
